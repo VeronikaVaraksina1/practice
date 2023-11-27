@@ -1,0 +1,33 @@
+.squares-container {
+  width: 800px;
+  height: 100vh;
+  margin: 20px auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 30%;
+  height: 100px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.square-wrong {
+  background-color: red;
+}
+
+.square-correct {
+  background-color: green;
+}
